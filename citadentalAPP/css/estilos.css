@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Angkor&display=swap');
+
+
+/* RESET */
+*{
+    margin: 0;
+    padding:0;
+    list-style: none;
+}
+
+
+
+
+/* ----- BODY ----- */
+body {
+            
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+/* ------------------ */
+
+
+
+/* ----- CONTAINER -------- */
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            position: relative;
+            top: 10px;
+            margin-top: 0;
+            color: #333;
+            font-family: "Angkor", serif;
+            font-weight: 400;
+            font-style: normal;  
+            font-size: 40px;          
+        
+        }
+
+
+        p{
+            font-size: 20px;
+        }
+
+        ul li a{
+            text-decoration: none;
+            list-style: none;
+            color: #2980b9;
+        }
+
+
+
+        form {
+            margin-bottom: 20px;
+        }
+
+        label {
+            font-weight: bold;
+        }
+
+        select, input[type="datetime-local"], input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+        button[type="submit"] {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        button[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+
+
+
+        button[type="inicio"] {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+
+
+        button[type="inicio"]:hover {
+            background-color: #0056b3;
+        }
+        
+        button[type="inicio"] a {
+            list-style: none;
+            color: white;
+            text-decoration: none;
+        }
+
+
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        td {
+            background-color: #fff;
+        }
+
+        tr:hover {
+            background-color: #f2f2f2;
+        }
+
+        .search-form {
+            margin-bottom: 20px;
+        }
+
+        .search-form input[type="text"] {
+            width: 70%;
+        }
+
+        .search-form button[type="submit"] {
+            width: 25%;
+            margin-left: 5px;
+        }
+
+        /* Estilos para el mensaje emergente */
+        .mensaje-emergente {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: rgba(0, 123, 255, 0.9);
+            color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+            z-index: 9999;
+            display: none;
